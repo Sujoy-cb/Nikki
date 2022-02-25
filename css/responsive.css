@@ -1,0 +1,167 @@
+@media (min-width:320px) and (max-width:575px){
+    /* ============================
+            nav bar start
+    =============================== */
+
+    nav .nav-button button a .bar {
+        position: absolute;
+        top: -60px;
+        right: 22px;
+        opacity: 1;
+        font-size: 20px;
+        display: block;
+    }
+    nav .circle{
+        display: none !important;
+    }
+    nav .circle2{
+        display: none !important;
+    }
+    
+    nav ul .hm{
+        position: absolute;
+        top: -88px;
+        right: 30px;
+        width: 100px;
+    }
+    nav ul .ab{
+        position: absolute;
+        top: -64px;
+        right: 50px;
+        width: 100px;
+    }
+    nav ul .os{
+        position: absolute;
+        top: -42px;
+        right: 55px;
+        width: 110px;
+    }
+    nav ul .op{
+        position: absolute;
+        top: -18px;
+        right: 29px;
+        width: 110px;
+    }
+    nav ul .tm{
+        position: absolute;
+        top: 5px;
+        right: 2px;
+        width: 110px;
+    }
+    nav ul .cs{
+        position: absolute;
+        top: 26px;
+        right: -27px;
+        width: 110px;
+    }
+    
+    /* ============================
+            nav bar end
+    =============================== */
+
+     /* ============================
+            banner start
+    =============================== */
+    #banner-part .banner-img{
+        background: url(../images/about-img1.png) no-repeat center;
+        background-size: cover;
+    }
+    #banner-part .overlay-sm{
+        width: 100%;
+        height: 100%;
+        background: rgb(0, 0, 0,.6);
+        display: block;
+        padding-bottom: 50px;
+    }
+    #banner-part .text{
+        text-align: center;
+    }
+    #banner-part .text h3{
+        font-size: 40px;
+        color: #fff;
+        margin-top: 175px;
+    }
+    #banner-part .text h1{
+        font-size: 70px;
+    }
+    #banner-part .text h4{
+        font-size: 40px;
+        color: #fff;
+    }
+    #banner-part .text p{
+        font-size: 13px;
+        width: 300px;
+        margin-left: 10px;
+        color: #fff;
+    }
+    #banner-part .img{
+        display: none;
+    }
+    #banner-part .text a{
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    #banner-part .text .two{
+        background: #fff;
+    }
+    #banner-part .text a:hover{
+        background: #fff;
+        color: #222222;
+    }
+    /* ============================
+            banner end
+    =============================== */
+
+    /* ============================
+            service part start
+    =============================== */
+    #service-part{
+        padding: 50px 0;
+    }
+    #service-part .title{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    #service-part .title h4{
+        font-size: 30px;
+    }
+    #service-part .title h5{
+        font-size: 18px;
+    }
+    #service-part .top .service-top .img{
+        width: 60px;
+        height: 60px;
+        margin-left: 10px;
+    }
+    #service-part .top .service-top .img img{
+        width: 60%;
+        margin-top: -30px;
+    }
+    #service-part .top .service-top .details h5{
+        font-size: 18px;
+    }
+    #service-part .top .service-top .details p{
+        font-size: 13px;
+    }
+    #service-part .bottom .service-bottom .details{
+        margin-right: 15px;
+    }
+    #service-part .bottom .service-bottom .img{
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+    #service-part .bottom .service-bottom .img img{
+        width: 60%;
+        margin-top: -30px;
+    }
+    #service-part .bottom .service-bottom .details h5{
+        font-size: 18px;
+    }
+    #service-part .bottom .service-bottom .details p{
+        font-size: 13px;
+    }
+    /* ============================
+            service part end
+    =============================== */
+}

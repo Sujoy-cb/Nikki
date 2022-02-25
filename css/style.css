@@ -1,0 +1,1320 @@
+/* ==================================
+        common css start
+================================== */
+*{
+    margin: 0;
+    padding: 0;
+}
+a,a:hover,a:focus{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+}
+.clr{
+    clear: both;
+}
+.title{
+    position: relative;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+}
+
+.title h4{
+    font-family: 'Dosis', sans-serif;
+    font-size: 35px;
+    color: #222222;
+    font-weight: 500;
+    
+}
+.title h5{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    color: #444444;
+    font-weight: 500;
+}
+/* ==================================
+        common css end
+================================== */
+
+
+/* ==================================
+        nav part css start
+================================== */
+nav{
+    position: absolute !important;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+nav ul li{
+    z-index: 9999;
+}
+nav ul li a{
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    transition: .4s;
+    
+}
+nav ul .active a{
+    color: #ffb88c;
+}
+nav ul .active a i{
+    opacity: 1;
+}
+
+nav ul{
+    position: relative;
+}
+nav .menu-item{
+    display: block;
+    width: 100%;
+}
+nav .menu{
+    display: none;
+}
+
+nav ul .hm{
+    position: absolute;
+    top: -20px;
+    right: 65px;
+    width: 100px;
+}
+nav ul .ab{
+    position: absolute;
+    top: 20px;
+    right: 85px;
+    width: 100px;
+}
+nav ul .os{
+    position: absolute;
+    top: 60px;
+    right: 92px;
+    width: 110px;
+}
+nav ul .op{
+    position: absolute;
+    top: 100px;
+    right: 72px;
+    width: 110px;
+}
+nav ul .tm{
+    position: absolute;
+    top: 140px;
+    right: 30px;
+    width: 110px;
+}
+nav ul .cs{
+    position: absolute;
+    top: 175px;
+    right: -33px;
+    width: 110px;
+}
+nav a i{
+    color: #ffb88c;
+    font-size: 26px;
+    opacity: 0;
+    transition: .4s;
+}
+nav .circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #e29591;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    z-index: -1;
+    display: none;
+}
+nav .circle2{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #f3b68f;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: -1;
+    display: none;
+}
+nav .nav-button{
+    position: relative;
+    width: 100%;
+}
+nav button{
+    display: block !important;
+}
+nav .nav-button button a .bar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 1;
+    font-size: 25px;
+    display: block;
+}
+nav ul li a:hover{
+    color: #ffb88c;
+}
+nav ul li a:hover i{
+    opacity: 1;
+}
+/* ==================================
+        nav part css end
+================================== */
+
+
+/* ==================================
+        banner part css start
+================================== */
+#banner-part{
+    position: relative;
+    
+    
+}
+#banner-part .pad{
+    padding: 0;
+}
+
+#banner-part .text h3{
+    font-family: 'Dosis', sans-serif;
+    font-size: 48px;
+    color: #222222;
+    font-weight: 500;
+    margin-top: 150px;
+}
+#banner-part .text h1{
+    font-family: 'Dosis', sans-serif;
+    font-size: 82px;
+    background: -webkit-linear-gradient(top, #faab86 40%, #e36f68 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: -10px 0;
+}
+#banner-part .text h4{
+    font-family: 'Dosis', sans-serif;
+    font-size: 48px;
+    color: #222222;
+    font-weight: 500;
+}
+#banner-part .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #444444;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 20px;
+}
+#banner-part .text .button{
+    margin-top: 30px;
+}
+#banner-part .text a{
+    display: inline-block;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #e36f68;
+    background: -webkit-linear-gradient(left, #fa7a73, #ffb88c);
+    border-radius: 50px;
+    padding: 15px 30px;
+    transition: .4s;
+}
+#banner-part .text a:hover{
+    background: transparent;
+    color: #222222;
+}
+#banner-part .text .two{
+    background: transparent;
+    color: #222222;
+    margin-left: 20px;
+    transition: .4s;
+}
+#banner-part .text .two:hover{
+    background: -webkit-linear-gradient(left, #fa7a73, #ffb88c);
+    color: #fff;
+}
+
+#banner-part .img{
+    position: relative;
+}
+#banner-part .img .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 104px;
+    background: rgb(0, 0, 0,.7);
+    border-bottom-left-radius: 100% !important;
+    
+}
+#banner-part .img img{
+    width: 100%;
+    border-bottom-left-radius: 100% !important;
+    margin-left: 104px;
+    overflow: hidden;
+}
+
+/* ==================================
+        banner part css end
+================================== */
+
+
+
+/* ==================================
+        service part css start
+================================== */
+#service-part{
+    padding: 100px 0;
+}
+#service-part .title:after{
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: -10px;
+    width: 3px;
+    height: 80%;
+    background: -webkit-linear-gradient(top, #faab86 40%, #e36f68 60%);
+}
+
+#service-part .top .service-top{
+    display: flex;
+    border: 1px solid #eeeeee;
+    border-top: none;
+    border-left: none;
+    padding: 25px 0;
+    padding-left: 10px;
+    box-sizing: border-box;
+
+}
+#service-part .top .last{
+    border-right: none;
+}
+#service-part .top .service-top .img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #444444;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+}
+#service-part .top .service-top .details{
+    margin-left: 15px;
+}
+#service-part .top .service-top .details h5{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    color: #222222;
+    font-weight: 500;
+}
+#service-part .top .service-top .details p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #444444;
+    font-weight: 400;
+    width: 265px;
+}
+#service-part .bottom .service-bottom{
+    display: flex;
+    border-right: 1px solid #eeeeee;
+    padding: 25px 0;
+    padding-left: 10px;
+    box-sizing: border-box;
+    text-align: right;
+
+}
+#service-part .bottom .last{
+    border-right: none;
+}
+#service-part .bottom .service-bottom .img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #444444;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+}
+#service-part .bottom .service-bottom .details{
+    margin-right: 15px;
+}
+#service-part .bottom .service-bottom .details h5{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    color: #222222;
+    font-weight: 500;
+}
+#service-part .bottom .service-bottom p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #444444;
+    font-weight: 400;
+    width: 265px;
+}
+/* ==================================
+        service part css end
+================================== */
+
+
+/* ==================================
+        about part css start
+================================== */
+#about-part{
+    padding:40px 0 120px 0;
+}
+#about-part .title{
+    text-align: right;
+}
+#about-part .title:before{
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    right: -10px;
+    width: 3px;
+    height: 80%;
+    background: -webkit-linear-gradient(top, #faab86 40%, #e36f68 60%);
+}
+#about-part .left{
+    transform: rotate(45deg);
+}
+
+#about-part .left .item{
+    overflow: hidden;
+}
+#about-part .left .item1{
+    border-radius: 5px;
+    width: 100%;
+    height: 190px;
+    margin-top: -9px;
+    
+}
+#about-part .left .item2{
+    height: 180px;
+    border-radius: 100% 0% 0% 100% / 100% 0% 100% 0%;
+    transform: rotate(90deg);
+    width: 83%;
+    margin-left: 22px;
+    margin-top: 9px;
+}
+#about-part .left .item3{
+    height: 173px;
+    border-radius: 100% 0% 0% 100% / 100% 0% 100% 0%;
+    transform: rotate(-90deg);
+    margin-top: 4px;
+    margin-left: 17px;
+    width: 90%;
+}
+#about-part .left .item4{
+    border-radius: 100% 0% 0% 100% / 100% 0% 100% 0%;
+    transform: rotate(180deg);
+    width: 95%;
+    margin-left: 11px;
+    margin-top: 4px;
+    height: 173px;
+}
+#about-part .left .item .img img{
+    transform: rotate(-45deg);
+}
+#about-part .left .item1 .img img{
+    margin-top: -65px;
+    margin-left: -289px;
+}
+#about-part .left .item2 .img img{
+    margin-top: 29px;
+    margin-left: -73px;
+    transform: rotate(-132deg);
+}
+#about-part .left .item3 .img img{
+    margin-top: -8px;
+    margin-left:  -61px;
+    transform: rotate(45deg);
+}
+#about-part .left .item4 .img img{
+    margin-top: 41px;
+    margin-left:  -60px;
+}
+#about-part .text{
+    text-align: right;
+}
+#about-part .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+    line-height: 24px;
+    width: 643px;
+    margin-top: 30px;
+    margin-left: 65px;
+}
+#about-part .text .red{
+    color: #de6262;
+    width: 674px;
+    margin-top: -30px;
+}
+#about-part .text .signature{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#about-part .text .signature h5{
+    font-family: 'Great Vibes', cursive;
+    font-size: 16px;
+    color: #222222;
+    font-weight: 400;
+}
+#about-part .text .signature h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+}
+/* ==================================
+        about part css end
+================================== */
+
+
+/* ==================================
+        portfolio part css start
+================================== */
+#portfolio-part .portfolio-bg{
+    background: url(../images/port-bg.png) no-repeat center;
+    background-size: cover;
+}
+#portfolio-part .overlay{
+    background: rgb(0, 0, 0,.6);
+    width: 100%;
+    height: 100%;
+    padding: 60px 0;
+}
+#portfolio-part .overlay .button{
+    text-align: center;
+    margin-top: 60px;
+}
+#portfolio-part .overlay .button a{
+    display: inline-block;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #e36f68;
+    background: -webkit-linear-gradient(left, #fa7a73, #ffb88c);
+    border-radius: 50px;
+    padding: 15px 30px;
+    transition: .4s;
+}
+
+#portfolio-part .title h4{
+    color: #fff;
+}
+#portfolio-part .title h5{
+    color: #fff;
+}
+#portfolio-part .title:before{
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: -10px;
+    width: 3px;
+    height: 80%;
+    background: -webkit-linear-gradient(top, #faab86 40%, #e36f68 60%);
+}
+#portfolio-part .top .left .img{
+    position: relative;
+    overflow: hidden;
+}
+#portfolio-part .top .left .img img{
+    width: 100%;
+}
+#portfolio-part .top .left .img .red-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgb(231, 157, 157,.6);
+    position: absolute;
+    top: -185px;
+    left: -215px;
+    clip-path: polygon(0 0, 100% 0, 69% 31%, 0% 100%);
+    transition: .4s;
+    
+}
+#portfolio-part .top .left .img:hover .red-overlay{
+    top: 0;
+    left: 0;
+}
+#portfolio-part .top .left .img .sm-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255,.0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+#portfolio-part .top .left .img .sm-overlay i{
+    width: 50px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #222222;
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .top .left .img:hover .sm-overlay i{
+    opacity: 1;
+}
+#portfolio-part .top .left .img .gold-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgb(251, 208, 182,.6);
+    position: absolute;
+    top: 185px;
+    left: 215px;
+    clip-path: polygon(49% 51%, 100% 0, 100% 100%, 0% 100%);
+    transition: .4s;
+}
+#portfolio-part .top .left .img:hover .gold-overlay{
+    top: 0;
+    left: 0;
+}
+#portfolio-part .top .right .img{
+    position: relative;
+    overflow: hidden;
+}
+#portfolio-part .top .right .img img{
+    width: 100%;
+}
+#portfolio-part .top .right .img .red-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgb(231, 157, 157,.6);
+    position: absolute;
+    top: -88px;
+    left: -215px;
+    clip-path: polygon(0 0, 100% 0, 69% 31%, 0% 100%);
+    transition: .4s;
+    
+}
+#portfolio-part .top .right .img:hover .red-overlay{
+    top: 0;
+    left: 0;
+}
+#portfolio-part .top .right .img .sm-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255,.0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+#portfolio-part .top .right .img .sm-overlay i{
+    width: 50px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #222222;
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .top .right .img:hover .sm-overlay i{
+    opacity: 1;
+}
+#portfolio-part .top .right .img .gold-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgb(251, 208, 182,.6);
+    position: absolute;
+    top: 88px;
+    left: 215px;
+    clip-path: polygon(49% 51%, 100% 0, 100% 100%, 0% 100%);
+    transition: .4s;
+}
+#portfolio-part .top .right .img:hover .gold-overlay{
+    top: 0;
+    left: 0;
+}
+#portfolio-part .top .right .top-top{
+    margin-bottom: 29px;
+}
+#portfolio-part .bottom{
+    margin-top: 29px;
+}
+#portfolio-part .bottom .img{
+    position: relative;
+    overflow: hidden;
+}
+#portfolio-part .bottom .img img{
+    width: 100%;
+}
+#portfolio-part .bottom .img .red-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgb(231, 157, 157,.6);
+    position: absolute;
+    top: -160px;
+    left: -134px;
+    clip-path: polygon(0 0, 100% 0, 69% 31%, 0% 100%);
+    transition: .4s;
+    
+}
+#portfolio-part .bottom .img:hover .red-overlay{
+    top: 0;
+    left: 0;
+}
+#portfolio-part .bottom .img .sm-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255,.0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+#portfolio-part .bottom .img .sm-overlay i{
+    width: 50px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #222222;
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .bottom .img:hover .sm-overlay i{
+    opacity: 1;
+}
+#portfolio-part .bottom .img .gold-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgb(251, 208, 182,.6);
+    position: absolute;
+    top: 160px;
+    left: 134px;
+    clip-path: polygon(49% 51%, 100% 0, 100% 100%, 0% 100%);
+    transition: .4s;
+}
+#portfolio-part .bottom .img:hover .gold-overlay{
+    top: 0;
+    left: 0;
+}
+/* ==================================
+        portfolio part css end
+================================== */
+
+
+
+/* ==================================
+        slider part css start
+================================== */
+#slider-part{
+    position: relative;
+    padding: 100px 0;
+}
+#slider-part .cr-line{
+    position: absolute;
+    top: 50%;
+    left: 61%;
+    transform: translate(-50%,-50%);
+}
+#slider-part .item{
+    margin-top: 12px;
+}
+#slider-part .details{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    padding: 20px 0;
+}
+
+#slider-part .details h3{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    color: #222222;
+    font-weight: 500;
+    text-align: right;
+}
+#slider-part .details h5{
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    font-weight: 500;
+    text-align: right;
+}
+#slider-part .middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#slider-part .text{
+    padding: 30px 20px;
+}
+#slider-part .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #444444;
+    font-weight: 400;
+    font-style: italic;
+    width: 370px;
+}
+#slider-part .item{
+    position: relative;
+    padding: 28px 0;
+    outline: 0;
+}
+#slider-part .slick-center .revers{
+    flex-direction: row-reverse;
+}
+#slider-part .slick-center .details{
+    margin-right: 72px;
+}
+
+#slider-part .slick-center .middle{
+    position: absolute;
+    top: 0;
+    left: 352px;
+}
+#slider-part .slick-center .right{
+    background: #f1f1f1;
+    width: 94%;
+    margin-left: 354px;
+    position: relative;
+    filter: drop-shadow(0 0 0.20rem #000);
+}
+#slider-part .slick-center .right:after{
+    content: "";
+    position: absolute;
+    top: 43%;
+    right: -7%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 30px;
+    height: 30px;
+    background: #f1f1f1;
+}
+#slider-part .slick-center .right .text{
+    text-align: right;
+}
+#slider-part .next{
+    width: 25px;
+    height: 25px;
+    background: #444444;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%)rotate(-90deg);
+    transition: .4s;
+}
+#slider-part .next:hover{
+    background: -webkit-linear-gradient(top, #faab86 40%, #e36f68 60%);
+    color: #222222;
+}
+#slider-part .prev{
+    width: 25px;
+    height: 25px;
+    background: #444444;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+    position: absolute;
+    bottom: -3%;
+    left: 50%;
+    transform: translateX(-50%)rotate(-90deg);
+    transition: .4s;
+}
+#slider-part .prev:hover{
+    background: -webkit-linear-gradient(top, #faab86 40%, #e36f68 60%);
+    color: #222222;
+}
+/* ==================================
+        slider part css end
+================================== */
+
+
+/* ==================================
+        pricing part css start
+================================== */
+#pricing-part{
+    padding: 100px 0;
+}
+#pricing-part .title{
+    text-align: right;
+}
+#pricing-part .title:before{
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    right: -10px;
+    width: 3px;
+    height: 80%;
+    background: -webkit-linear-gradient(top, #faab86 40%, #e36f68 60%);
+}
+#pricing-part .price-item{
+    text-align: center;
+    transition: .4s;
+}
+#pricing-part .price-item .top{
+    background: #f1f1f1;
+    padding: 30px 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: .4s;
+}
+#pricing-part .price-item .top h4{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    color: #222222;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#pricing-part .price-item .top h2{
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    color: #222222;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 15px;
+    margin-left: -57px;
+}
+#pricing-part .price-item .top h2 span{
+    font-size: 20px;
+    position: absolute;
+    top: 13%;
+    right: 36%;
+}
+#pricing-part .price-item .top p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    color: #222222;
+    font-weight: 500;
+    margin-top: -23px;
+    margin-left: 54px;
+}
+#pricing-part .price-item .mid{
+    background:linear-gradient(to left, #fbad87, #e16a66, #fbad87);
+    padding: 30px 0 50px 0;
+    border-bottom: 1px solid #e36f68;
+    position: relative;
+    transition: .4s;
+}
+#pricing-part .price-item .mid a{
+    display: inline-block;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    color: #222222;
+    font-weight: 500;
+    background: #fff;
+    border: 1px solid #e36f68;
+    border-radius: 50px;
+    padding: 15px 30px;
+    position: absolute;
+    bottom: 0;
+    left: 27%;
+    transform: translateY(50%);
+}
+#pricing-part .price-item .bottom{
+    background: #f1f1f1;
+    padding: 20px 0 10px 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: .4s;
+}
+#pricing-part .price-item .bottom ul li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #444444;
+    font-weight: 400;
+    margin-top: 30px;
+    transition: .4s;
+}
+#pricing-part .price-item:hover{
+    filter: drop-shadow(0 0 0.10rem #000);
+}
+#pricing-part .price-item:hover .top{
+    background: linear-gradient(to top, #ffb88b, #faaa85);
+}
+#pricing-part .price-item:hover .mid{
+    background: #f1f1f1;
+}
+#pricing-part .price-item:hover .bottom{
+    background: linear-gradient(to top, #eb8373, #df6564);
+}
+#pricing-part .price-item:hover .bottom ul li{
+    color: #fff;
+}
+/* ==================================
+        pricing part css end
+================================== */
+
+
+/* ==================================
+        team part css start
+================================== */
+#team-part{
+    padding: 100px 0;
+}
+#team-part .title{
+    position: relative;
+}
+#team-part .title:before{
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: -10px;
+    width: 3px;
+    height: 80%;
+    background: -webkit-linear-gradient(top, #faab86 40%, #e36f68 60%);
+}
+
+#team-part .member img{
+    width: 100%;
+}
+#team-part .member .overlay{
+    position: absolute;
+    top: 0;
+    left: 14px;
+    width: 90%;
+    height: 0;
+    background: linear-gradient(to left, rgb(227, 121, 117,.8), rgb(251, 184, 147,.8));
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    transition: .4s;
+    
+}
+#team-part .member .overlay .text{
+    text-align: center;
+    opacity: 0;
+}
+#team-part .member .overlay .text h5{
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+#team-part .member .overlay .text p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+#team-part .member .overlay .icons{
+    opacity: 0;
+}
+#team-part .member .overlay .icons i{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    color: #fff;
+    margin: 20px 5px;
+    transition: .4s;
+}
+#team-part .member:hover .overlay{
+    height: 100%;
+}
+#team-part .member:hover .overlay .text{
+    opacity: 1;
+}
+#team-part .member:hover .overlay .icons{
+    opacity: 1;
+}
+#team-part .member .overlay .icons i:hover{
+    background: #fff;
+    border: 1px solid #fff;
+    color: #444444;
+}
+/* ==================================
+        team part css end
+================================== */
+
+/* ==================================
+        blog part css start
+================================== */
+#blog-part{
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+#blog-part .title{
+    text-align: right;
+    position: relative;
+}
+#blog-part .title:before{
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    right: -10px;
+    width: 3px;
+    height: 80%;
+    background: -webkit-linear-gradient(top, #faab86 40%, #e36f68 60%);
+}
+#blog-part .img{
+    position: relative;
+}
+#blog-part .img img{
+    width: 100%;
+}
+#blog-part .img .blog-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: linear-gradient(to right, rgb(223, 122, 113,.7), rgb(245, 180, 142,.7));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+}
+#blog-part .img .blog-overlay p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    opacity: 0;
+    
+}
+#blog-part .img .blog-overlay a{
+    color: #fff;
+    margin-left: 10px;
+}
+#blog-part .main:hover .img .blog-overlay{
+    height: 100%;
+}
+#blog-part .main:hover .img .blog-overlay p{
+    opacity: 1;
+}
+#blog-part .text h4{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    color: #222222;
+    font-weight: 600;
+    transition: .4s;
+}
+#blog-part .text h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #444444;
+    font-weight: 400;
+    margin-top: 15px;
+}
+#blog-part .text h6 span{
+    margin-left: 10px;
+}
+#blog-part .text h6 .cal{
+    margin-left: 10px;
+}
+#blog-part .text h6 .eye{
+    margin-left: 0px;
+}
+#blog-part .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    color: #444444;
+    font-weight: 400;
+    width: 368px;
+    margin-top: 15px;
+}
+#blog-part .main:hover .text h4{
+    background: -webkit-linear-gradient(top, #faab86 40%, #e36f68 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* ==================================
+        blog part css end
+================================== */
+
+/* ==================================
+     bottom slider part css start
+================================== */
+#bottom-slider{
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+#bottom-slider .img{
+    margin-top: 10px;
+    padding: 30px 8px;
+    background: #fff;
+}
+#bottom-slider .slick-center .img{
+    border: 2px solid #eb8373;
+    filter: drop-shadow(0 0 0.20rem #000);
+}
+#bottom-slider .slick-list{
+    height: 120px;
+}
+
+/* ==================================
+     bottom slider part css end
+================================== */
+
+
+/* ==================================
+     footer part css start
+================================== */
+#footer-part{
+    background: #f1f1f1;
+    padding: 60px 0;
+    filter: drop-shadow(0 0 0.10rem #000);
+}
+#footer-part .img img{
+    width: 100%;
+}
+#footer-part .about p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #444444;
+    font-weight: 400;
+    width: 165px;
+    line-height: 24px;
+}
+#footer-part .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #444444;
+    font-weight: 400;
+    width: 265px;
+    line-height: 24px;
+    margin-top: 10px;
+}
+#footer-part .icons i{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #eb8373;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #444444;
+    margin-top: 20px;
+    margin-right: 10px;
+    transition: .4s;
+}
+#footer-part .icons i:hover{
+    background: linear-gradient(to left, #fbad86, #e26b66);
+    color: #fff;
+    border: 1px solid #eb8373;
+}
+#footer-part .address h4{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    color: #222222;
+    font-weight: 600;
+}
+#footer-part .address p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #444444;
+    font-weight: 400;
+    margin-top: 10px;
+}
+#footer-part .address p span{
+    text-transform: uppercase;
+}
+#footer-part .email h4{
+    margin-top: 18px;
+}
+#footer-part .website h4{
+    margin-top: 18px;
+}
+#footer-part .footer-menu h4{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    color: #222222;
+    font-weight: 600;
+}
+#footer-part .footer-menu ul li a{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #444444;
+    font-weight: 400;
+    margin-top: 20px;
+    transition: .4s;
+}
+#footer-part .footer-menu ul li .top{
+    margin-top: 10px;
+}
+#footer-part .footer-menu ul li:hover a{
+    margin-left: 20px;
+}
+#footer-part .photos h4{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    color: #222222;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-left: -6px;
+}
+#footer-part .photos .img{
+    margin: 0 10px;
+}
+#footer-part .photos .img img{
+    width: 100%;
+}
+#footer-part .photos .sec-part{
+    margin-top: 20px;
+}
+/* ==================================
+     footer part css end
+================================== */
+
+
+/* ==================================
+     copy right part css start
+================================== */
+#copy-part{
+    background: #f1f1f1;
+    text-align: center;
+    padding: 20px 0;
+}
+#copy-part .copy p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #444444;
+    font-weight: 400;
+}
+#copy-part .copy p span{
+    text-transform: uppercase;
+}
+
+/* ==================================
+     copy right part css end
+================================== */
+
+
